@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1de098;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#hero {
+    background: linear-gradient(rgba(179, 197, 43, 0.5), rgba(24, 148, 202, 0.5)), url('https://via.placeholder.com/800x400') no-repeat center center/cover;
+    color: #921656;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 0;
+    background: #27ae60;
+    color: #171416;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background: #219150;
+}
+
+.cta-button.secondary {
+    background: #2c3e50;
+}
+
+.cta-button.secondary:hover {
+    background: #1a242f;
+}
+
+#introduction, #features, #gallery, #testimonial, #reservation {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #27ae60;
+    font-size: 2.5em;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-item {
+    flex: 1 1 45%;
+    margin: 20px;
+    text-align: left;
+    background: #1274b6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item li {
+    padding: 10px 0;
+    border-bottom: 1px solid #d4e113ec;
+}
+
+.gallery-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.gallery-carousel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(222, 28, 28, 0.911);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .contact-info {
+    margin: 20px 0;
+}
+
+footer .newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+footer .newsletter button {
+    padding: 10px;
+    border: none;
+    background: #27ae60;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background: #219150;
+}
